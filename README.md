@@ -1,7 +1,7 @@
 Carpenter
 =========
 
-**<a href='http://rich-harris.github.com'>Click here to use the app</a>**
+**<a href='http://rich-harris.github.com/Carpenter'>Click here to use the app</a>**
 
 Making HTML tables is way harder than it needs to be. Many content management systems have some way of doing it, but they tend to be a pain in the proverbial.
 
