@@ -3,7 +3,7 @@ Carpenter
 
 Making HTML tables is way harder than it needs to be. Many content management systems have some way of doing it, but they tend to be a pain in the proverbial.
 
-<a href='index'>Carpenter</a> was built to make it easier for my colleagues to create static tables. Future versions may include all sorts of column sorting, data cleaning, live polling magic, but for now it aims to just do one thing well.
+Carpenter was built to make it easier for my colleagues to create static tables. Future versions may include all sorts of column sorting, data cleaning, live polling magic, but for now it aims to just do one thing well.
 
 
 Contribute
