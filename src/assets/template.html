@@ -1,0 +1,49 @@
+<div id='input-row' class='clearfix section not-visible'>
+	<div class='left paste-data'>
+		<h3>Paste in your data...</h3>
+		<div id='paste-container'>
+			<textarea id='paste' class='input'></textarea>
+			<a id='reset-paste' class='btn btn-danger'><i class="icon-remove icon-white"></i> reset</a>
+		</div>
+
+		<p class='muted'>{{pasteStatus}}&nbsp;</p>
+	</div>
+
+	<div class='right upload-file'>
+		<h3>...or upload a CSV file</h3>
+		<div id='droptarget' class='well target input'>
+			<p>Drag and drop or <a class='btn'>browse</a></p>
+		</div>
+		<input id='fileinput' accept='text/csv' type='file'/>
+
+		{{#uploadError}}<p class='text-error'>{{uploadError}}</p>{{/uploadError}}
+		<p class='muted'>{{uploadStatus}}&nbsp;</p>
+	</div>
+</div>
+
+<div id='output-row' class='clearfix section not-visible'>
+	
+	<div>
+		<h3>Get the code</h3>
+
+		<div id='output-controls' class='btn-group'>
+			<a id='copy-to-clipboard' class='btn btn-primary'>Copy HTML to clipboard</a>
+			<a id='select-all' class='btn'>Select all</a>
+		</div>
+		<span id='clipboard-status' class="label label-success">copied</span>
+		
+		<textarea id='output' readonly></textarea>
+	</div>
+
+	<div>
+		<h3>Preview the table</h3>
+		<p class='muted'>Note: the visual style is dependent on the page's CSS &ndash; it won't look exactly like this</p>
+
+		<div id='preview'></div>
+	</div>
+
+
+	
+
+	
+</div>
