@@ -1,6 +1,8 @@
 Carpenter
 =========
 
+**<a href='http://rich-harris.github.com'>Click here to use the app</a>**
+
 Making HTML tables is way harder than it needs to be. Many content management systems have some way of doing it, but they tend to be a pain in the proverbial.
 
 Carpenter was built to make it easier for my colleagues to create static tables. Future versions may include all sorts of column sorting, data cleaning, live polling magic, but for now it aims to just do one thing well.
