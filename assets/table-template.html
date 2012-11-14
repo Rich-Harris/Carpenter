@@ -1,0 +1,15 @@
+<table{{#preview}} class='table'{{/preview}}>
+	<thead>
+		<tr>
+			{{#header}}<th>{{.}}</th>{{/header}}
+		</tr>
+	</thead>
+
+	<tbody>
+		{{#body}}
+		<tr>
+			{{#.}}<td>{{.}}</td>{{/.}}
+		</tr>
+		{{/body}}
+	</tbody>
+</table>

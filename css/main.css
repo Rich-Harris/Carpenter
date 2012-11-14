@@ -1,0 +1,43 @@
+body {
+	padding: 0;
+}
+
+.container {
+	padding: 0 20px;
+}
+
+#loading {
+	text-align: center;
+	font-size: 2em;
+	padding: 200px 0 0 0;
+}
+
+.forkme {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 149px;
+	height: 149px;
+	background: url(https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png) no-repeat 0 0;
+}
+
+
+.section {
+	opacity: 1;
+	-webkit-transition: opacity 0.4s;
+	-moz-transition: opacity 0.4s;
+	-o-transition: opacity 0.4s;
+	-ms-transition: opacity 0.4s;
+	transition: opacity 0.4s;
+	clear: both;
+}
+
+.not-visible {
+	opacity: 0;
+	-webkit-transition: opacity 0.4s;
+	-moz-transition: opacity 0.4s;
+	-o-transition: opacity 0.4s;
+	-ms-transition: opacity 0.4s;
+	transition: opacity 0.4s;
+}
+
